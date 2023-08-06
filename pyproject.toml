@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "tennis-launcher"
+version = "0.1.0"
+description = "A python program that checks whether a launcher I want to purchase is back in stock."
+authors = ["sevkw <kwang0422@gmail.com>"]
+readme = "README.md"
+packages = [{include = "tennis_launcher"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+beautifulsoup4 = "^4.12.2"
+requests = "^2.31.0"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
