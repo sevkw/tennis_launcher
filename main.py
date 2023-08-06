@@ -26,7 +26,7 @@ if purchase_option == IN_STOCK:
         connection.login(user=SENDER_EMAIL, password=SENDER_EMAIL_APP_PSWD)
         connection.sendmail(
             from_addr=SENDER_EMAIL, 
-            to_addrs=SENDER_EMAIL,
+            to_addrs=TO_EMAIL,
             msg=f"Subject: 🎾Tennis Launcher Back in Stock!\n\n{IN_STOCK} at: {LAUNCHER_URL}"
         )
 
