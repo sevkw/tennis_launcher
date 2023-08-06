@@ -27,7 +27,7 @@ if purchase_option == IN_STOCK:
         connection.sendmail(
             from_addr=SENDER_EMAIL, 
             to_addrs=SENDER_EMAIL,
-            msg=f"Subject:Tennis Launcher Back in Stock!\n\n{IN_STOCK} at: {LAUNCHER_URL}"
+            msg=f"Subject: 🎾Tennis Launcher Back in Stock!\n\n{IN_STOCK} at: {LAUNCHER_URL}"
         )
 
 else:
